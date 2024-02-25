@@ -715,11 +715,11 @@ footer {
 }
 
 .slider {
-    height: 140px;
+    height: 150px;
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 82vw;
+    width: 77vw;
 }
 
 .slider .slide-track{
@@ -727,8 +727,8 @@ footer {
 }
 
 .slide img {
-    height: 140px;
-    width: 140px;
+    height: 150px;
+    width: 150px;
 }
 
 .slider .slide{
