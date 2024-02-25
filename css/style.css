@@ -48,6 +48,10 @@ nav{
     color: #000;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .presentation {
     text-align: center;
     padding-top: 120px;
@@ -85,7 +89,6 @@ nav{
 }
 
 .brands {
-    background-color: #CDC9CA;
     color: white;
     padding: 15px 0px 30px 0px;
 }
@@ -96,6 +99,7 @@ nav{
 }
 
 .brands h2{
+    color: #000;
     font-size: 1.1rem;
     font-weight: bold;
     margin-bottom: 0;
@@ -105,6 +109,7 @@ nav{
 }
 
 .brands h3{
+    color: #000;
     margin-top: 30px;
     font-weight: bold;
     font-size:2rem;
@@ -295,6 +300,7 @@ nav{
 }
 
 .our__proposal-section {
+    text-align: center;
     padding: 10px 15px 0px 15px;
 }
 
@@ -709,12 +715,11 @@ footer {
 }
 
 .slider {
-    height: 150px;
+    height: 140px;
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 75vw;
-    box-shadow: -1px -2px 10px 0px rgba(0,0,0,0.75);
+    width: 82vw;
 }
 
 .slider .slide-track{
@@ -722,8 +727,8 @@ footer {
 }
 
 .slide img {
-    height: 150px;
-    width: 150px;
+    height: 140px;
+    width: 140px;
 }
 
 .slider .slide{
@@ -763,8 +768,7 @@ footer {
         margin: auto;
         overflow: hidden;
         position: relative;
-        width: 70vw;
-        box-shadow: -1px -2px 10px 0px rgba(0,0,0,0.75);
+        width: 75vw;
     }
 
     .slide img {
@@ -814,7 +818,7 @@ footer {
     }
 
     .our__proposal-section {
-        padding: 10px 15px 0px 25px;
+       padding-top: 10px;
     }
 
     .proposal__figure-cards {
@@ -1024,8 +1028,7 @@ footer {
         margin: auto;
         overflow: hidden;
         position: relative;
-        width: 50vw;
-        box-shadow: -1px -2px 10px 0px rgba(0,0,0,0.75);
+        width: 52vw;
     }
 
 
@@ -1212,7 +1215,7 @@ footer {
     }
 
     .our__proposal-section {
-        padding: 30px 0px 0px 40px;
+        padding: 30px 0px 10px 0px;
     }
 
     .proposal__card {
