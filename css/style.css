@@ -245,6 +245,11 @@ nav{
     margin: 10px 40px;
 }
 
+.our__teams-names a {
+    text-decoration: none;
+    display: contents;
+}
+
 .our__teams-names img {  
     width: 70px;
     height: 70px;
@@ -256,15 +261,24 @@ nav{
     font-weight: bold;
 }
 
+.our__teams-names p {
+    color: #000;
+}
+
 .our__teams-names img {
     border-radius: 100%;
 }
+
 
 .our__team-articles {
     display: flex;
     flex-direction: column;
     margin: 20px 20px;
     text-align: center;
+}
+
+.our__team-articles i {
+    font-size: 0.7rem;
 }
 
 .our__teams-names h4 {
@@ -452,6 +466,10 @@ nav{
     width: 50vw;
 }
 
+.about__us-team a {
+    text-decoration: none;
+}
+
 .about__us-team img {
     border-radius: 100%;
     width: 115px;
@@ -463,6 +481,10 @@ nav{
     color: #ff734f;
     font-weight: bolder;
     font-size: 1.1rem;
+}
+
+.about__us-team span {
+    color: #000;
 }
 
 .about__us-button {
@@ -806,6 +828,10 @@ footer {
         height: 90px;
     }
 
+    .our__teams-names p {
+        font-size: 0.8rem;
+    }
+
     .footer__agency {
         display: flex;
         flex-direction: row;
@@ -1130,6 +1156,10 @@ footer {
         flex-direction: row;
         align-items: center;
         margin: 10px 40px;
+    }
+
+    .our__teams-names a {
+        display: flex;
     }
 
     .our__teams-names img {
